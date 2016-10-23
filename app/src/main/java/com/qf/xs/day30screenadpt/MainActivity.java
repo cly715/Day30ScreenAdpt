@@ -1,5 +1,6 @@
 package com.qf.xs.day30screenadpt;
 
+import android.graphics.Color;
 import android.os.Bundle;
 //import android.support.design.widget.FloatingActionButton;
 //import android.support.design.widget.Snackbar;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.text_tv);
         textView.setText("dasda");
+        textView.setTextColor(Color.BLUE);
     }
 
 
